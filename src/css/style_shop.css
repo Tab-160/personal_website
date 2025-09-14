@@ -1,0 +1,64 @@
+.logo-div-shop {
+	/*transition: all 2s ease-in-out;*/
+	width: 10vw;
+	display: flex;
+	justify-content: center;
+}
+
+.logo-img-shop {
+	transition: all 2s ease-in-out;
+	width: 10vw;
+}
+
+.spacer-shop, .aboutMe-shop, .projects-shop, .shop-shop {
+	transition: all 2s ease-in-out;
+	width: 12vw;
+	white-space: nowrap;
+}
+
+.foreground-shop {
+	/*transition: all 2s ease-in-out;*/
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	width: 100vw;
+	top: 0vw;
+	left: 2vw;
+}
+
+.navigation-shop {
+	/*transition: all 2s ease-in-out;*/
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 4vh;
+	text-align: center;
+}
+
+.blue-selector-shop {
+	transition: all 2s ease-in-out;
+	margin-top: 1.5vw;
+	margin-left: 90vw;
+	width: 10vw;
+	height: 6vh;
+	background-color: var(--blue);
+}
+
+.aboutMeContent-shop {
+	transition: all 2s ease-in-out;
+	display: flex;
+	position: absolute;
+	justify-content: space-evenly;
+	font-size: 0vh;
+	width: 0vw;
+	bottom: 0vh;
+}
+
+.selfie-div-shop {
+	transition: all 2s ease-in-out;
+	width: 100%;
+}
+
+.selfie-img-shop {
+	transition: all 2s ease-in-out;
+	width: 100%;
+}

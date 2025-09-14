@@ -1,0 +1,70 @@
+.logo-div-home {
+	/*transition: all 2s ease-in-out;*/
+	/*width: var(--logo-div-width);*/
+	width: 60vw;
+	display: flex;
+	flex-basis: 100%;
+	justify-content: center;
+}
+
+.logo-img-home {
+	transition: all 2s ease-in-out;
+	width: 25vw;
+	/*width: var(--logo-img-width);*/
+}
+
+.spacer-home, .aboutMe-home, .projects-home {
+	transition:  all 2s ease-in-out;
+	width: 20vw;
+	white-space: nowrap;
+}
+
+.foreground-home {
+	/*transition: all 2s ease-in-out;*/
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	width: 60vw;
+	top: 5vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navigation-home {
+	/*transition: all 2s ease-in-out;*/
+	width: 60vw;
+	display: flex;
+	flex-basis: 100%;
+	justify-content: space-evenly;
+	font-size: 8vh;
+	text-align: center;
+}
+
+.blue-selector-home {
+	transition: all 2s ease-in-out;
+	margin-top: -10;
+	margin-left: -10;
+	width: 100vw;
+	height: 100vh;
+	background-color: var(--blue);
+}
+
+.aboutMeContent-home {
+	transition: all 2s ease-in-out;
+	display: flex;
+	position: absolute;
+	justify-content: space-evenly;
+	font-size: 0vh;
+	width: 0vw;
+	bottom: 0vh;
+}
+
+.selfie-div-home {
+	transition: all 2s ease-in-out;
+	width: 100%;
+}
+
+.selfie-img-home {
+	transition: all 2s ease-in-out;
+	width: 100%;
+}
