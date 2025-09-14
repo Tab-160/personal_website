@@ -109,6 +109,7 @@
 		</script>
 	</head>
 	<body>
+		<a href="/../../" class="navigation">Back to main homepage</a>
 		<a href="/add_a_name/" class="navigation">Add A Name</a>
 		<h1>Biblical Names</h1>
 		<h3>Currently has all names up to Genesis 10</h3>
