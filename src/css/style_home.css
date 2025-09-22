@@ -68,3 +68,13 @@
 	transition: all 2s ease-in-out;
 	width: 100%;
 }
+
+.projectsContent-home {
+	transition: all 2s ease-in-out;
+	display: flex;
+	position: absolute;
+	justify-content: space-evenly;
+	font-size: 0vh;
+	width: 0vw;
+	bottom: 0vh;
+}
