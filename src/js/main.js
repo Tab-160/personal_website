@@ -17,6 +17,7 @@ var about_me_content = document.querySelector('.aboutMeContent-home');
 var selfie = document.querySelector('.selfie-div-home');
 var selfie_img = document.querySelector('.selfie-img-home');
 var intro = document.querySelector('.intro-home');
+var projects_content = document.querySelector('.projectsContent-home');
 var r = document.querySelector(':root');
 
 // moves everything to the "about me" page setup
@@ -33,6 +34,7 @@ function aboutMeSetup() {
 	selfie.setAttribute("class", 'selfie-div-aboutMe');
 	selfie_img.setAttribute("class", 'selfie-img-aboutMe');
 	intro.setAttribute("class", 'intro-aboutMe');
+    projects_content.setAttribute("class", 'projectsContent-aboutMe');
 }
 
 function homeSetup(){
@@ -48,6 +50,7 @@ function homeSetup(){
 	selfie.setAttribute("class", 'selfie-div-home');
 	selfie_img.setAttribute("class", 'selfie-img-home');
 	intro.setAttribute("class", 'intro-home');
+    projects_content.setAttribute("class", 'projectsContent-home');
 }
 
 function projectsSetup(){
@@ -63,6 +66,7 @@ function projectsSetup(){
 	selfie.setAttribute("class", 'selfie-div-projects');
 	selfie_img.setAttribute("class", 'selfie-img-projects');
 	intro.setAttribute("class", 'intro-projects');
+    projects_content.setAttribute("class", 'projectsContent-projects');
 }
 
 function shopSetup(){
@@ -78,6 +82,7 @@ function shopSetup(){
 	selfie.setAttribute("class", 'selfie-div-shop');
 	selfie_img.setAttribute("class", 'selfie-img-shop');
 	intro.setAttribute("class", 'intro-shop');
+    projects_content.setAttribute("class", 'projectsContent-shop');
 }
 
 about_me.addEventListener('click', aboutMeSetup);

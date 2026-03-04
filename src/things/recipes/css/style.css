@@ -1,0 +1,26 @@
+#header_big {
+    flex: auto;
+    text-align: center;
+    width: 660px;
+    margin: 0 auto 10px;
+    margin-top: 0px;
+    border: 1px solid var(--black);
+  }
+
+#header {
+    margin: 10px;
+    border: 1px solid var(--black);
+}
+
+.recipe {
+    width: 30vw;
+    margin: auto;
+}
+
+h2 {
+    color: var(--purple_dark);
+}
+
+h5 {
+    color: var(--red_dark);
+}

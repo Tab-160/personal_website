@@ -2,10 +2,8 @@
 	/*Defining colors*/
 	--blue: #A3CEF1;
 	--red: #F9B9C3;
-	--red_dark: #C98993;
 	--green: #C1D7C1;
 	--purple: #CBB2E6;
-	--purple_dark: #8B72A6;
 	--black: #0D1321;
 	--white: #FEF6EC;
 	
@@ -22,9 +20,6 @@ html,
 body {
     background: var(--green);
 	height: 100%;
-	transition: all 2s ease-in-out;
-	/*transition: left 2s ease-in-out, width 2s ease-in-out, top 2s ease-in-out;*/
-	transition-delay: 0s, 0s, 0s;
 }
 
 .everything{
@@ -37,15 +32,48 @@ h3,
 h4,
 h5,
 h6 {
-	transition: all 2s ease-in-out;
 	margin: 0;
 	color: var(--black);
 	font-family: "American Typewriter";
+	display: flex;
+	justify-content: center;
 }
 
 p {
-	/*transition: all 2s ease-in-out;*/
 	color: var(--black);
+	font-size: 10vh;
+	font-family: "American Typewriter";
+	display: flex;
+	justify-content: center;
+}
+
+.image, .piechart {
+	display: flex;
+	justify-content: center;
+}
+
+.results {
+	font-size: 7vh;
+	font-family: "American Typewriter";
+	display: flex;
+	justify-content: center;
+}
+
+.options {
+	display: flex;
+	justify-content: center;
+}
+
+form {
+	display: flex;
+	justify-content: center;
 	font-family: "American Typewriter";
 }
 
+button {
+	display: flex;
+	justify-content: center;
+	font-family: "American Typewriter";
+	
+	font-size: 8vh;
+}
