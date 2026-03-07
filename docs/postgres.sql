@@ -24,13 +24,13 @@ WITH (oids = false);
 
 CREATE TABLE "public"."recipes" (
     "title" text,
-    "ingredients" text[],
-    "instructions" text[]
+    "ingredients" text,
+    "instructions" text
 )
 WITH (oids = false);
 
 
 INSERT INTO recipes
     VALUES ('Milk',
-           '{"1 Cup Milk"}',
-           '{"Add milk to cup", "Stir"}');
+           '1 Cup Milk',
+           'Add milk to cup;Stir');
