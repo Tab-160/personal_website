@@ -1,2 +1,11 @@
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-CloudVertexBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
 User-agent: *
 Disallow: /
