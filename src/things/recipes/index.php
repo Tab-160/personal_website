@@ -4,6 +4,42 @@
 		<link rel="stylesheet" href="/css/style.css"/>
         <link rel="stylesheet" href="/css/style_projects.css"/>
         <link rel="stylesheet" href="./css/style.css"/>
+        
+        <script>
+            // Searches the list of recipes and hides any non-matching results
+			function search() {
+				console.log("start");
+				// Declare reused vars
+				var recipe_name, txtValue;
+				
+				//find search term
+				var input = document.getElementById("search_term");
+				// make case insensitive
+				var filter = input.value.toUpperCase();
+                
+				// grab the recipes, returned as an array
+				var recipes_array = document.getElementsByClassName("recipe");
+
+				// Loop through all table rows, and hide those who don't match the search query
+				for (var i = 0; i < recipes_array.length; i++) {
+					
+					recipe_name = recipes_array[i].getElementsByTagName("h2")[0];
+					if (recipe_name) {
+						txtValue = recipe_name.textContent || recipe_name.innerText;
+						if (txtValue.toUpperCase().indexOf(filter) > -1) {
+							recipes_array[i].style.display = "";
+						} else {
+							recipes_array[i].style.display = "none";
+						}
+					}
+				}
+			}
+        
+        
+        
+        </script>
+        
+        
     </head>
     <body>
         <!-- nav to home -->
@@ -31,6 +67,13 @@
                 <p id="description">RECIPES TAB USES.</p>
             </div>
         </div>
+        
+        <input 
+               type="text" 
+               id="search_term" 
+               onkeyup="search()" 
+               placeholder="Seach for a recipe"
+        />
         
         <?php
             // connect to database

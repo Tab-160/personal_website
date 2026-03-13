@@ -12,6 +12,15 @@
     border: 1px solid var(--black);
 }
 
+input {
+    display: flex;
+    flex: auto;
+    text-align: center;
+    margin: 0 auto 10px;
+    width: 15vw;
+    height: 3vh;
+}
+
 .recipe {
     width: 30vw;
     margin: auto;
