@@ -1,0 +1,1 @@
+Make sure that ports 80 and 443 are forwarded in the modem.
