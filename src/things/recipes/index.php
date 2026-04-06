@@ -59,7 +59,7 @@
         <div class="blue-selector-projects"></div>
         
         <!-- get stuff below logo -->
-        <br><br>
+        <br><br><br><br><br><br><br><br><br><br>
         
         <div id="header_big">
             <div id="header">

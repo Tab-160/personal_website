@@ -13,9 +13,9 @@
 	/*width: var(--logo-img-width);*/
 }
 
-.spacer-home, .aboutMe-home, .projects-home {
+.spacer-home, .aboutMe-home, .projects-home, .shop-home {
 	transition:  all 2s ease-in-out;
-	width: 20vw;
+	width: 35vh;
 	white-space: nowrap;
 }
 
@@ -32,8 +32,9 @@
 
 .navigation-home {
 	/*transition: all 2s ease-in-out;*/
-	width: 60vw;
+	width: 100vw;
 	display: flex;
+    flex-wrap: wrap;
 	flex-basis: 100%;
 	justify-content: space-evenly;
 	font-size: 8vh;

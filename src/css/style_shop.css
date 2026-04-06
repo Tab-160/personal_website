@@ -11,8 +11,9 @@
 }
 
 .spacer-shop, .aboutMe-shop, .projects-shop, .shop-shop {
+    text-align: right;
 	transition: all 2s ease-in-out;
-	width: 12vw;
+	width: 20vh;
 	white-space: nowrap;
 }
 
@@ -27,18 +28,22 @@
 }
 
 .navigation-shop {
+    z-index: 1;
 	/*transition: all 2s ease-in-out;*/
 	display: flex;
-	justify-content: space-evenly;
+    flex-wrap: wrap;
+	justify-content: right;
 	font-size: 4vh;
 	text-align: center;
 }
 
 .blue-selector-shop {
+    z-index: 0;
+    position: absolute;
 	transition: all 2s ease-in-out;
-	margin-top: 1.5vw;
-	margin-left: 90vw;
-	width: 10vw;
+	margin-top: 3vh;
+	right: -10vh;
+	width: 20vh;
 	height: 6vh;
 	background-color: var(--blue);
 }

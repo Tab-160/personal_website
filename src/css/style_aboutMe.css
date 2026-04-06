@@ -11,8 +11,9 @@
 }
 
 .spacer-aboutMe, .aboutMe-aboutMe, .projects-aboutMe, .shop-aboutMe {
+    text-align: right;
 	transition: all 2s ease-in-out;
-	width: 12vw;
+	width: 20vh;
 	white-space: nowrap;
 }
 
@@ -27,18 +28,22 @@
 }
 
 .navigation-aboutMe {
+    z-index: 1;
 	/*transition: all 2s ease-in-out;*/
 	display: flex;
-	justify-content: space-evenly;
+    flex-wrap: wrap;
+	justify-content: right;
 	font-size: 4vh;
 	text-align: center;
 }
 
 .blue-selector-aboutMe {
+    z-index: 0;
+    position: absolute;
 	transition: all 2s ease-in-out;
-	margin-top: 1.5vw;
-	margin-left: 65vw;
-	width: 12vw;
+	margin-top: 3vh;
+	right: 33vh;
+	width: 20vh;
 	height: 6vh;
 	background-color: var(--blue);
 }
