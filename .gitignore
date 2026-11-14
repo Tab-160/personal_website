@@ -2,3 +2,5 @@
 *.key
 *.pem
 src/things/charis_grad.zip
+nginx/tab160.com.key
+nginx/tab160.com.pem
