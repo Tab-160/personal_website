@@ -1,0 +1,4 @@
+*.env
+*.key
+*.pem
+src/things/charis_grad.zip
